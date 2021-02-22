@@ -52,21 +52,21 @@ public class LevelParserStarter : MonoBehaviour
 
     private void SpawnPrefab(char spot, Vector3 positionToSpawn)
     {
-        GameObject ToSpawn;
+        //GameObject ToSpawn;
 
         switch (spot)
         {
-            case 'b': Debug.Log("Spawn Brick"); break;
-            case '?': Debug.Log("Spawn QuestionBox"); break;
-            case 'x': Debug.Log("Spawn Rock"); break;
-            case 's': Debug.Log("Spawn Rock"); break;
+            //case 'b': ToSpawn = Brick; break;
+            //case '?': ToSpawn = QuestionBox; break;
+            //case 'x': ToSpawn = Rock; break;
+            //case 's': ToSpawn = Rock; break;
             //default: Debug.Log("Default Entered"); break;
             default: return;
                 //ToSpawn = //Brick;       break;
         }
 
-            ToSpawn = GameObject.Instantiate(ToSpawn, parentTransform);
-            ToSpawn.transform.localPosition = positionToSpawn;
+            //ToSpawn = GameObject.Instantiate(ToSpawn, parentTransform);
+            //ToSpawn.transform.localPosition = positionToSpawn;
 
 
     }
